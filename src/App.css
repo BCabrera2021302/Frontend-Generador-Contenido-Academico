@@ -1,0 +1,51 @@
+/* Estilos generales para dispositivos de todos los tamaños */
+/* Ajusta los estilos según tus necesidades */
+
+header {
+  background-color: #d33131;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #afabab;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cuestion {
+  left: 550px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 5px;
+  width: 240px;
+ position:relative;
+ display: flex;
+}
+
+/* .footer {
+  background-color: red;
+  margin-top: auto;
+  height: auto;
+} */
+
+/* Estilos para dispositivos más pequeños (por ejemplo, teléfonos móviles) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  input, button {
+    width: 100%;
+  }
+  
+  
+}
